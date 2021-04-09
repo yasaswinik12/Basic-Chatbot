@@ -1,0 +1,102 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-), welcome to Bunny's Cafe",
+          "Hey! Hope you are doing good...",
+          "Hello, thanks for visiting Bunny's Cafe",
+          "Hi there, what can I do for you?",
+          "Hey there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thank's a lot!"],
+        "responses": ["Thank you for ordering", "We hope you enjoy the food"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?",
+          "What can I get here?"
+        ],
+        "responses": [
+          "We sell coffee, tea and chocolate cookies ",
+          "We have coffee, tea and chocolate cookies"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "I will have a coffee and some chocolate cookies ",
+          "I would like to have coffee ",
+          "Can I get a cup of tea",
+          "I will just have some cookies"
+        ],
+        "responses": [
+          "Sure",
+          "Coming right away",
+          "You will have your order in a few minutes ",
+          "Your order is ready "
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "order",
+        "patterns": [
+          "Could you take my order?",
+          "I would like to place my order."
+        ],
+        "responses": [
+          "Sure",
+          "Yes please"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison.",
+          "Why do bees hum? They don’t remember the lyrics!",
+          "I find it ironic that the colors red, white, and blue stand for freedom until they are flashing behind you.",
+          "Today a man knocked on my door and asked for a small donation towards the local swimming pool. I gave him a glass of water."
+        ]
+      }
+    ]
+  }
